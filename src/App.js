@@ -16,10 +16,10 @@ function App() {
       slidesPerView={1}
     >
       <SwiperSlide>
-        <img src="/page1.jpg" alt="Page 1" className="slide-img" />
+        <img src={`${process.env.PUBLIC_URL}/page1.jpg`} alt="Page 1" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src="/page2.jpg" alt="Page 2" className="slide-img" />
+        <img src={`${process.env.PUBLIC_URL}/page2.jpg`} alt="Page 2" />
       </SwiperSlide>
     </Swiper>
   );
